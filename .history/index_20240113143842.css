@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400;0,700;1,800&family=Inter:wght@400;500;600;700&family=Roboto+Slab:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400;0,700;1,800&family=Inter:wght@400;500;600;700&family=Roboto+Slab:wght@400;700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +12,7 @@
 }
 .login {
   width: 570px;
+  height: 496px;
   border-radius: 6px;
   background: #fff;
   display: flex;
@@ -36,9 +37,11 @@
   background: #fff;
   margin-bottom: 28px;
   padding-left: 16px;
-  outline: none;
+  outline:none;
 }
-
+input:focus{
+  border: ;
+}
 textarea {
   width: 474px;
   height: 128px;
@@ -47,28 +50,15 @@ textarea {
   background: #fff;
   resize: none;
   padding: 7px;
-  outline: none;
-  margin-bottom: 20px;
 }
-textarea::placeholder {
-  color: #28293e;
+textarea::placeholder{
+color: #28293e;
 }
-button {
+.button {
   width: 154px;
   height: 48px;
   border-radius: 6px;
   background: #ef6d58;
-  color: #fff;
-  text-align: center;
-  font-family: Epilogue;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: normal;
-  text-transform: uppercase;
-  border: none;
-  margin: auto;
-  margin-top: 20px;
 }
 .left-box {
   margin-left: 130px;
@@ -107,29 +97,22 @@ button {
   line-height: 32px;
   margin-bottom: 33px;
 }
-ul {
-  display: flex;
-  flex-direction: column;
+ul{
+display: flex;
+flex-direction: column;
 }
-li {
-  list-style-type: none;
-  display: flex;
+li{
+list-style-type: none;
+display: flex;
 }
-.left-box ul li h3 {
-  color: var(--Text_Light, #fff);
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: Epilogue;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px;
-  margin-left: 16px;
-  margin-bottom: 32px;
-}
-select {
-  border-radius: 6px;
-  border: 1px solid #f3d1bf;
-  background: #fff;
-  width: 474px;
-  height: 48px;
+.left-box ul li h3{
+    color: var(--Text_Light, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+    margin-left: 16px;
+    margin-bottom: 32px;
 }

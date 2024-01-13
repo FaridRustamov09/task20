@@ -12,6 +12,7 @@
 }
 .login {
   width: 570px;
+  height: 496px;
   border-radius: 6px;
   background: #fff;
   display: flex;
@@ -20,7 +21,9 @@
 }
 .login b {
   color: var(--Text_Dark, #391400);
-  font-feature-settings: "clig" off, "liga" off;
+  font-feature-settings:
+    "clig" off,
+    "liga" off;
   font-family: Epilogue;
   font-size: 24px;
   font-style: normal;
@@ -48,34 +51,24 @@ textarea {
   resize: none;
   padding: 7px;
   outline: none;
-  margin-bottom: 20px;
 }
 textarea::placeholder {
   color: #28293e;
 }
-button {
+.button {
   width: 154px;
   height: 48px;
   border-radius: 6px;
   background: #ef6d58;
-  color: #fff;
-  text-align: center;
-  font-family: Epilogue;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: normal;
-  text-transform: uppercase;
-  border: none;
-  margin: auto;
-  margin-top: 20px;
 }
 .left-box {
   margin-left: 130px;
 }
 .left-box h2 {
   color: var(--Text_Light_Accent, #ef6d58);
-  font-feature-settings: "clig" off, "liga" off;
+  font-feature-settings:
+    "clig" off,
+    "liga" off;
   font-family: Epilogue;
   font-size: 16px;
   font-style: normal;
@@ -87,7 +80,9 @@ button {
 }
 .left-box h1 {
   color: var(--Text_Light, #fff);
-  font-feature-settings: "clig" off, "liga" off;
+  font-feature-settings:
+    "clig" off,
+    "liga" off;
   font-family: Epilogue;
   font-size: 56px;
   font-style: normal;
@@ -99,7 +94,9 @@ button {
 .left-box p {
   width: 470px;
   color: var(--Text_Light_Gray, rgba(255, 255, 255, 0.64));
-  font-feature-settings: "clig" off, "liga" off;
+  font-feature-settings:
+    "clig" off,
+    "liga" off;
   font-family: Epilogue;
   font-size: 16px;
   font-style: normal;
@@ -117,7 +114,9 @@ li {
 }
 .left-box ul li h3 {
   color: var(--Text_Light, #fff);
-  font-feature-settings: "clig" off, "liga" off;
+  font-feature-settings:
+    "clig" off,
+    "liga" off;
   font-family: Epilogue;
   font-size: 20px;
   font-style: normal;
@@ -126,10 +125,8 @@ li {
   margin-left: 16px;
   margin-bottom: 32px;
 }
-select {
+select{
   border-radius: 6px;
-  border: 1px solid #f3d1bf;
-  background: #fff;
-  width: 474px;
-  height: 48px;
+border: 1px solid #F3D1BF;
+background: #FFF;
 }
