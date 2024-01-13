@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400;0,700;1,800&family=Inter:wght@400;500;600;700&family=Roboto+Slab:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  padding: 143px 135px 160px 135px;
+  background-color: #28293e;
+  min-height: 100vh;
+  display: flex;
+}
+.login {
+  width: 570px;
+  height: 496px;
+  border-radius: 6px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 57px 48px 48px 48px;
+}
+.login b {
+  color: var(--Text_Dark, #391400);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 23px;
+}
+.login input {
+  width: 474px;
+  height: 48px;
+  border-radius: 6px;
+  border: 1px solid #f3d1bf;
+  background: #fff;
+  margin-bottom: 28px;
+  padding-left: 16px;
+}
+textarea {
+  width: 474px;
+  height: 128px;
+  border-radius: 6px;
+  border: 1px solid #f3d1bf;
+  background: #fff;
+  resize: none;
+  padding: 7px;
+}
+textarea::placeholder{
+color: #28293e;
+}
+.button {
+  width: 154px;
+  height: 48px;
+  border-radius: 6px;
+  background: #ef6d58;
+}
+.left-box {
+  margin-left: 130px;
+}
+.left-box h2 {
+  color: var(--Text_Light_Accent, #ef6d58);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.left-box h1 {
+  color: var(--Text_Light, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 64px;
+  letter-spacing: -1px;
+  margin-bottom: 28px;
+}
+.left-box p {
+  width: 470px;
+  color: var(--Text_Light_Gray, rgba(255, 255, 255, 0.64));
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 33px;
+}
+ul{
+display: flex;
+flex-direction: column;
+}
+li{
+list-style-type: none;
+display: flex;
+}
+.left-box ul li h3{
+    color: var(--Text_Light, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+    margin-left: 16px;
+    margin-bottom: 32px;
+}
